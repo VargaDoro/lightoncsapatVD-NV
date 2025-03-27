@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+article {
+    margin: auto;
+}
+
+.jatekter {
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw; 
+    max-width: 300px;
+    gap: 10px;
+}
+
+.elem {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+
+@media screen and (max-width: 500px) {
+    
+}
