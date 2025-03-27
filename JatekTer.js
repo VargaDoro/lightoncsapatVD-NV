@@ -12,7 +12,6 @@ export default class JatekTer{
         this.allapot();
         this.info.megjelenit(this.#lekapcsolt)
         this.szElem = szElem;
-        
         this.megjelenit();
         this.kivalasztEsemenykezelo()
     }
